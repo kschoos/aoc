@@ -1,3 +1,8 @@
+# Advent of Code
+# Day: 2
+# Author: Skusku
+# Language: Python
+
 import re
 
 input = [[int(val) for val in re.split("[\t ]", line)] for line in '''798	1976	1866	1862	559	1797	1129	747	85	1108	104	2000	248	131	87	95
@@ -17,6 +22,6 @@ input = [[int(val) for val in re.split("[\t ]", line)] for line in '''798	1976	1
 3591	1843	3448	1775	3564	2632	1002	3065	77	3579	78	99	1668	98	2963	3553
 2155	225	2856	3061	105	204	1269	171	2505	2852	977	1377	181	1856	2952	2262'''.splitlines()]
 
-#Another oneliner, once the data is well presented.
+# Another oneliner, once the data is well presented.
 print(sum([max(lst) - min(lst) for lst in input]))
 
