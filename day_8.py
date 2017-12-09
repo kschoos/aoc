@@ -1,5 +1,5 @@
 # Advent of Code
-# Day: 7
+# Day: 8
 # Author: Skusku
 # Language: Python
 
